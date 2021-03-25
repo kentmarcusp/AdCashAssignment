@@ -1,0 +1,24 @@
+{
+    "name": "adcashfrontend",
+    "version": "1.0.0",
+    "description": "Adcash Assignment for Software Engineering Intern - Front End",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "node-sass src/styles/style.scss src/styles/style.css"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^5.20.2",
+        "webpack-cli": "^4.5.0",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.35",
+        "html-webpack-plugin": "^5.3.1",
+        "local-storage": "^2.0.0",
+        "node-sass": "^5.0.0",
+        "sweetalert": "^2.1.2"
+    }
+}

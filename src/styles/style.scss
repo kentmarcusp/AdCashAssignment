@@ -1,0 +1,169 @@
+    $yellow-button: ( rgb(255, 153, 0));
+    $red-button: ( rgb(214, 61, 61));
+    $border-color: (#1f1f1f);
+    $header-color: (#151518);
+    $text-color: white;
+    .top-page {
+        height: 3rem;
+        display: flex;
+        background-color: $header-color;
+    }
+    
+    body {
+        background-color: $border-color;
+    }
+    
+    .button-container {
+        margin-top: 10px;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+    }
+    
+    .info-container {
+        margin-top: 1rem;
+        height: auto;
+    }
+    
+    .header-class {
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+        margin-right: 15%;
+        margin-left: 15%;
+        text-align: left;
+        color: $text-color;
+        font-size: 25px;
+        font-family: Verdana, sans-serif;
+    }
+    
+    .content-wrapper {
+        text-align: center;
+        height: auto;
+        margin-top: 5rem;
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
+        padding: 20px;
+        box-shadow: 5px 10px 25px 15px #000000;
+    }
+    
+    #tag-field-id {
+        margin-top: 5rem;
+        width: 75%;
+        padding: 12px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        border: 2px solid $border-color;
+    }
+    
+    .base-button {
+        padding: 7px;
+        height: 100%;
+        color: $text-color;
+        font-size: 20px;
+        border-radius: 8px;
+        text-align: center;
+    }
+    
+    .yellow-button {
+        background-color: $yellow-button;
+    }
+    
+    .red-button {
+        background-color: $red-button;
+    }
+    
+    .tag-reader {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 100%;
+        border-radius: 10px;
+        border: 2px solid $border-color;
+        color: $text-color;
+    }
+    
+    .delete-button {
+        background-color: transparent;
+        height: 1rem;
+        width: 2rem;
+        margin-left: 2px;
+    }
+    
+    .tag-container {
+        margin-left: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+        border-radius: 5px;
+        border-style: outset;
+        border-color: $yellow-button;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .second-header {
+        margin-top: 1rem;
+        color: $text-color;
+        font-family: Verdana, sans-serif;
+    }
+    
+    .bottom-page {
+        height: 3rem;
+        display: flex;
+        background-color: $header-color;
+        bottom: 0px;
+        position: absolute;
+        width: 99%;
+    }
+    
+    i {
+        margin-bottom: 1rem;
+        color: red;
+    }
+    
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 50%;
+        font-family: Verdana, sans-serif;
+    }
+    
+    .close {
+        color: $border-color;
+        float: right;
+        font-size: 35px;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    .modal-header {
+        padding: 2px 16px;
+        background-color: #b85c5c;
+        color: white;
+    }
