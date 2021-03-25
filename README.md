@@ -29,13 +29,17 @@ Adcash test assignment for Software Engineering Intern - Front End.
    ```sh
    git clone https://github.com/kentmarcusp/AdCashAssignment
    ```
-2. Install NPM packages
+2. Install NPM packages:
    ```sh
    npm install
    ```
-3. Compile SCSS:
+3. Install Node-SASS:
    ```sh
-   npm run compile:sass
+   npm install node-sass
+   ```
+4. Compile SCSS:
+   ```sh
+   npm run sass
    ```
 
 ## Built With
